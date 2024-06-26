@@ -1,5 +1,5 @@
 import React from 'react'
-import TodoItem from './TodoButton'
+import TodoButton from './TodoButton'
 
 export default function TodoKey({Tareas, onComplete, onDeleteItem}) {
 
