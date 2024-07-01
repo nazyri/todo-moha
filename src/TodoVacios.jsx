@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import { useState } from 'react';
-import { darDatos } from './Metedos';
+
 
 
 export default function TodoVacios({addTodo}) {
