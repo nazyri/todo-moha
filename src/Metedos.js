@@ -15,10 +15,10 @@ const getTarea = async () => {
 }
 
 //post
-const darDatos = async (tarea) => {
+const darDatos = async () => {
     try {
         let tarea={
-            nombre:input.value,
+            nombre: input.value,
             estado:false
         }
         console.log(JSON.stringify(tarea))
